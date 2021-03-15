@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Core",
+        "repositoryURL": "https://github.com/rem0t/OtusCoreLib",
+        "state": {
+          "branch": "main",
+          "revision": "324a9a6a89edb27bf60edbcef6fc7736a8b7d953",
+          "version": null
+        }
+      },
+      {
+        "package": "Networking",
+        "repositoryURL": "https://github.com/rem0t/otusNetworkLib",
+        "state": {
+          "branch": null,
+          "revision": "689f68f2c980bbad6ddb097887569abeac509da9",
+          "version": "1.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

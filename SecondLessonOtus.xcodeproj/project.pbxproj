@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31B8E4A825FFA2E1004D4964 /* SecondLessonOtusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8E4A725FFA2E1004D4964 /* SecondLessonOtusApp.swift */; };
+		31B8E4B725FFA4F5004D4964 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 31B8E4B625FFA4F5004D4964 /* Core */; };
+		31C3108A25EBDCBC0006B141 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3108925EBDCBC0006B141 /* RootView.swift */; };
+		31C3108D25EBDCE60006B141 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3108C25EBDCE60006B141 /* Router.swift */; };
+		31C3109325EBDEDA0006B141 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3109225EBDEDA0006B141 /* HomeScreen.swift */; };
+		31C3109725EBDF070006B141 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3109625EBDF070006B141 /* RecipesViewModel.swift */; };
+		31C3109B25EBE4630006B141 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3109A25EBE4630006B141 /* ProfileScreen.swift */; };
+		31C310A125EBE5850006B141 /* ProfileScreenContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310A025EBE5850006B141 /* ProfileScreenContents.swift */; };
+		31C310A425EBE8B80006B141 /* CustomNavControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310A325EBE8B80006B141 /* CustomNavControllerView.swift */; };
+		31C310B625EBEAE60006B141 /* ProfileInteriorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310B525EBEAE60006B141 /* ProfileInteriorScreen.swift */; };
+		31FB72E225B474DB006C10B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB72E125B474DB006C10B5 /* Assets.xcassets */; };
+		31FB72E525B474DB006C10B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB72E425B474DB006C10B5 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31B8E4A725FFA2E1004D4964 /* SecondLessonOtusApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondLessonOtusApp.swift; path = ../../../.Trash/SecondLessonOtusApp.swift; sourceTree = "<group>"; };
+		31C3108925EBDCBC0006B141 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		31C3108C25EBDCE60006B141 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		31C3109225EBDEDA0006B141 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		31C3109625EBDF070006B141 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		31C3109A25EBE4630006B141 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		31C310A025EBE5850006B141 /* ProfileScreenContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenContents.swift; sourceTree = "<group>"; };
+		31C310A325EBE8B80006B141 /* CustomNavControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavControllerView.swift; sourceTree = "<group>"; };
+		31C310B525EBEAE60006B141 /* ProfileInteriorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteriorScreen.swift; sourceTree = "<group>"; };
+		31FB72DA25B474D8006C10B5 /* SecondLessonOtus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondLessonOtus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FB72E125B474DB006C10B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31FB72E425B474DB006C10B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31FB72E625B474DB006C10B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31FB72D725B474D8006C10B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B8E4B725FFA4F5004D4964 /* Core in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C3109125EBDEBF0006B141 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				31C3109225EBDEDA0006B141 /* HomeScreen.swift */,
+				31C3109625EBDF070006B141 /* RecipesViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		31C3109E25EBE5700006B141 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				31C3109A25EBE4630006B141 /* ProfileScreen.swift */,
+				31C310A025EBE5850006B141 /* ProfileScreenContents.swift */,
+				31C310B525EBEAE60006B141 /* ProfileInteriorScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		31FB72D125B474D8006C10B5 = {
+			isa = PBXGroup;
+			children = (
+				31FB72DC25B474D8006C10B5 /* SecondLessonOtus */,
+				31FB72DB25B474D8006C10B5 /* Products */,
+				31FB72F225B4A9E7006C10B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31FB72DB25B474D8006C10B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FB72DA25B474D8006C10B5 /* SecondLessonOtus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31FB72DC25B474D8006C10B5 /* SecondLessonOtus */ = {
+			isa = PBXGroup;
+			children = (
+				31B8E4A725FFA2E1004D4964 /* SecondLessonOtusApp.swift */,
+				31C3109125EBDEBF0006B141 /* Home */,
+				31C3108925EBDCBC0006B141 /* RootView.swift */,
+				31C3108C25EBDCE60006B141 /* Router.swift */,
+				31C310A325EBE8B80006B141 /* CustomNavControllerView.swift */,
+				31C3109E25EBE5700006B141 /* Profile */,
+				31FB72E125B474DB006C10B5 /* Assets.xcassets */,
+				31FB72E625B474DB006C10B5 /* Info.plist */,
+				31FB72E325B474DB006C10B5 /* Preview Content */,
+			);
+			path = SecondLessonOtus;
+			sourceTree = "<group>";
+		};
+		31FB72E325B474DB006C10B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31FB72E425B474DB006C10B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31FB72F225B4A9E7006C10B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31FB72D925B474D8006C10B5 /* SecondLessonOtus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FB72E925B474DB006C10B5 /* Build configuration list for PBXNativeTarget "SecondLessonOtus" */;
+			buildPhases = (
+				31FB72D625B474D8006C10B5 /* Sources */,
+				31FB72D725B474D8006C10B5 /* Frameworks */,
+				31FB72D825B474D8006C10B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondLessonOtus;
+			packageProductDependencies = (
+				31B8E4B625FFA4F5004D4964 /* Core */,
+			);
+			productName = SecondLessonOtus;
+			productReference = 31FB72DA25B474D8006C10B5 /* SecondLessonOtus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31FB72D225B474D8006C10B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					31FB72D925B474D8006C10B5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 31FB72D525B474D8006C10B5 /* Build configuration list for PBXProject "SecondLessonOtus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31FB72D125B474D8006C10B5;
+			packageReferences = (
+				31B8E4B525FFA4F5004D4964 /* XCRemoteSwiftPackageReference "OtusCoreLib" */,
+			);
+			productRefGroup = 31FB72DB25B474D8006C10B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31FB72D925B474D8006C10B5 /* SecondLessonOtus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FB72D825B474D8006C10B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB72E525B474DB006C10B5 /* Preview Assets.xcassets in Resources */,
+				31FB72E225B474DB006C10B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31FB72D625B474D8006C10B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B8E4A825FFA2E1004D4964 /* SecondLessonOtusApp.swift in Sources */,
+				31C3108D25EBDCE60006B141 /* Router.swift in Sources */,
+				31C3109B25EBE4630006B141 /* ProfileScreen.swift in Sources */,
+				31C3109325EBDEDA0006B141 /* HomeScreen.swift in Sources */,
+				31C310A425EBE8B80006B141 /* CustomNavControllerView.swift in Sources */,
+				31C310A125EBE5850006B141 /* ProfileScreenContents.swift in Sources */,
+				31C3109725EBDF070006B141 /* RecipesViewModel.swift in Sources */,
+				31C3108A25EBDCBC0006B141 /* RootView.swift in Sources */,
+				31C310B625EBEAE60006B141 /* ProfileInteriorScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		31FB72E725B474DB006C10B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31FB72E825B474DB006C10B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31FB72EA25B474DB006C10B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SecondLessonOtus/Preview Content\"";
+				DEVELOPMENT_TEAM = N89Q9ZJQ5N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SecondLessonOtus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VK.SecondLessonOtus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		31FB72EB25B474DB006C10B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SecondLessonOtus/Preview Content\"";
+				DEVELOPMENT_TEAM = N89Q9ZJQ5N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SecondLessonOtus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VK.SecondLessonOtus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31FB72D525B474D8006C10B5 /* Build configuration list for PBXProject "SecondLessonOtus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB72E725B474DB006C10B5 /* Debug */,
+				31FB72E825B474DB006C10B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FB72E925B474DB006C10B5 /* Build configuration list for PBXNativeTarget "SecondLessonOtus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB72EA25B474DB006C10B5 /* Debug */,
+				31FB72EB25B474DB006C10B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31B8E4B525FFA4F5004D4964 /* XCRemoteSwiftPackageReference "OtusCoreLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rem0t/OtusCoreLib";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31B8E4B625FFA4F5004D4964 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31B8E4B525FFA4F5004D4964 /* XCRemoteSwiftPackageReference "OtusCoreLib" */;
+			productName = Core;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 31FB72D225B474D8006C10B5 /* Project object */;
+}
