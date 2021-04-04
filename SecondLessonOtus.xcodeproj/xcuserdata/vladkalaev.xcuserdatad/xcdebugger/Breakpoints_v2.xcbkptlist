@@ -116,14 +116,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "191333DF-D01A-4B3D-BFB4-9989A0946DB1 - 4004e09691b9588"
+                  uuid = "191333DF-D01A-4B3D-BFB4-9989A0946DB1 - 875d7c34a324113f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SecondLessonOtus.RecipesViewModel.loadPage() -&gt; ()"
                   moduleName = "SecondLessonOtus"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vladkalaev/Otus/SecondLessonOtus/SecondLessonOtus/Home/RecipesViewModel.swift"
+                  urlString = "file:///Users/vladkalaev/Otus/Third/SecondLessonOtus/Home/RecipesViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -131,14 +131,14 @@
                   offsetFromSymbolStart = "219">
                </Location>
                <Location
-                  uuid = "191333DF-D01A-4B3D-BFB4-9989A0946DB1 - c6d7629e5033a727"
+                  uuid = "191333DF-D01A-4B3D-BFB4-9989A0946DB1 - 458a50a39a0c2352"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Optional&lt;Networking.RecipeList&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SecondLessonOtus.RecipesViewModel.loadPage() -&gt; ()"
                   moduleName = "SecondLessonOtus"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vladkalaev/Otus/SecondLessonOtus/SecondLessonOtus/Home/RecipesViewModel.swift"
+                  urlString = "file:///Users/vladkalaev/Otus/Third/SecondLessonOtus/Home/RecipesViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -242,38 +242,6 @@
             endingLineNumber = "29"
             landmarkName = "getRecipe(i:p:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E2E908BA-ECEA-4E42-B10A-1D22AA4419B3 - 7fdb48a42a5a71ae"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Networking.Response&lt;Networking.RecipeList&gt;, Swift.Error&gt;) -&gt; () in Core.RecipeApiService.getRecipe(i: Swift.String, p: Swift.Optional&lt;Swift.Int&gt;, completion: (Swift.Optional&lt;Networking.RecipeList&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SecondLessonOtus"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vladkalaev/Desktop/OtusCoreLib/Sources/Core/Services/RecipeAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "177">
-               </Location>
-               <Location
-                  uuid = "E2E908BA-ECEA-4E42-B10A-1D22AA4419B3 - 7fdb48a42a5a71ae"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Networking.Response&lt;Networking.RecipeList&gt;, Swift.Error&gt;) -&gt; () in Core.RecipeApiService.getRecipe(i: Swift.String, p: Swift.Optional&lt;Swift.Int&gt;, completion: (Swift.Optional&lt;Networking.RecipeList&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SecondLessonOtus"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vladkalaev/Desktop/OtusCoreLib/Sources/Core/Services/RecipeAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "196">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -290,38 +258,6 @@
             endingLineNumber = "28"
             landmarkName = "getRecipe(i:p:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "74BA3789-C149-4DF6-AC13-B3D8D2737C03 - 1b9eddd000710125"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Core.RecipeApiService.getRecipe(i: Swift.String, p: Swift.Optional&lt;Swift.Int&gt;, completion: (Swift.Optional&lt;Networking.RecipeList&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SecondLessonOtus"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vladkalaev/Desktop/OtusCoreLib/Sources/Core/Services/RecipeAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "75">
-               </Location>
-               <Location
-                  uuid = "74BA3789-C149-4DF6-AC13-B3D8D2737C03 - 7fdb48a42a5a71ae"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Networking.Response&lt;Networking.RecipeList&gt;, Swift.Error&gt;) -&gt; () in Core.RecipeApiService.getRecipe(i: Swift.String, p: Swift.Optional&lt;Swift.Int&gt;, completion: (Swift.Optional&lt;Networking.RecipeList&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SecondLessonOtus"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vladkalaev/Desktop/OtusCoreLib/Sources/Core/Services/RecipeAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "177">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -401,6 +337,86 @@
             startingLineNumber = "21"
             endingLineNumber = "21"
             landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "281C6CBD-67FE-453E-9809-6E710115382F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecondLessonOtus/Home/HomeScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "938D80AB-A982-4E89-A66B-BBA977F5D8AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecondLessonOtus/Home/RecipesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "loadPage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EABB77C-F7D8-46A6-972E-0919CA9B724D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecondLessonOtus/Home/RecipesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "loadPage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33DBAEB5-8D86-4AEB-9C45-96C47B265985"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/SecondLessonOtus-fvcrnqekdqktrwdaxcignadvzgme/SourcePackages/checkouts/OtusCoreLib/Sources/Core/ServiceLocator/ServiceLocator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "addService(service:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59F16F78-D8F8-4178-932E-EA5A12401786"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/SecondLessonOtus-fvcrnqekdqktrwdaxcignadvzgme/SourcePackages/checkouts/OtusCoreLib/Sources/Core/ServiceLocator/ServiceLocator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getService(type:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
